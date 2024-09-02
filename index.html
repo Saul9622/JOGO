@@ -1,1 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>História Interativa: Aventura e Investigação</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>História Interativa: Aventura e Investigação</h1>
 
+    <!-- Capítulo 1 -->
+    <div id="passo-1" class="passo ativo">
+        <h2>Capítulo 1: Recebimento da Carta Misteriosa</h2>
+        <p>Guilherme recebe uma carta misteriosa que o convida a investigar um casarão abandonado.</p>
+        <div class="choice">
+            <button class="btn-proximo" data-proximo="2A">Guilherme decide investigar o casarão abandonado com Ana Luiza.</button>
+            <button class="btn-proximo" data-proximo="2B">Guilherme ignora a carta e decide investigar por conta própria.</button>
+        </div>
+    </div>
+
+    <!-- Capítulo 2A -->
+    <div id="passo-2A" class="passo">
+        <h2>Capítulo 2A: Chegada ao Casarão Abandonado</h2>
+        <p>Guilherme e Ana Luiza encontram Pedro Henrique, Saulo, Pedro Mantovani e Marco. O grupo decide investigar juntos.</p>
+        <div class="choice">
+            <button class="btn-proximo" data-proximo="3A">Guilherme decide confiar nos outros e trabalhar em equipe.</button>
+            <button class="btn-proximo" data-proximo="3B">Guilherme suspeita que alguém no grupo esteja envolvido e decide investigar sozinho.</button>
+        </div>
+    </div>
+
+    <!-- Capítulo 2B -->
+    <div id="passo-2B" class="passo">
+        <h2>Capítulo 2B: Investigação Solitária</h2>
+        <p>Guilherme é capturado pelo sequestrador, mas descobre informações sobre a sociedade secreta e escapa.</p>
+        <div class="choice">
+            <button class="btn-proximo" data-proximo="3A">Guilherme corre para o templo na floresta antes dos outros.</button>
+            <button class="btn-proximo" data-proximo="3B">Guilherme tenta avisar o grupo sobre a armadilha no templo.</button>
+        </div>
+    </div>
+
+    <!-- Capítulo 3A -->
+    <div id="passo-3A" class="passo">
+        <h2>Capítulo 3A: Seguindo a Pista da Moeda</h2>
+        <p>O grupo chega ao templo e desarma armadilhas, enquanto Pedro Mantovani reaparece.</p>
+        <div class="choice">
+            <button class="btn-proximo" data-proximo="4A">Seguir as pistas de Pedro Mantovani para encontrar o Relógio.</button>
+            <button class="btn-proximo" data-proximo="4B">Seguir diretamente o mapa esculpido na pedra.</button>
+        </div>
+    </div>
+
+    <!-- Capítulo 3B -->
+    <div id="passo-3B" class="passo">
+        <h2>Capítulo 3B: Investigando o Casarão</h2>
+        <p>Guilherme encontra um diário que revela detalhes sobre a sociedade secreta e possíveis pistas.</p>
+        <div class="choice">
+            <button class="btn-proximo" data-proximo="4A">Investigar a sociedade secreta antes de ir ao templo.</button>
+            <button class="btn-proximo" data-proximo="4B">Correr para o templo e enfrentar o sequestrador diretamente.</button>
+        </div>
+    </div>
+
+    <!-- Capítulo 4A -->
+    <div id="passo-4A" class="passo">
+        <h2>Capítulo 4A: O Relógio e a Revelação</h2>
+        <p>O grupo encontra o Relógio no templo, mas também descobre uma nova pista sobre a sociedade secreta.</p>
+        <div class="choice">
+            <button class="btn-proximo" data-proximo="5A">Seguir a nova pista e procurar pelo esconderijo da sociedade secreta.</button>
+            <button class="btn-proximo" data-proximo="5B">Investigar mais a fundo o templo e procurar por outros artefatos.</button>
+        </div>
+    </div>
+
+    <!-- Capítulo 4B -->
+    <div id="passo-4B" class="passo">
+        <h2>Capítulo 4B: Enfrentando o Sequestrador</h2>
+        <p>Guilherme e o grupo enfrentam o sequestrador e descobrem seu verdadeiro objetivo.</p>
+        <div class="choice">
+            <button class="btn-proximo" data-proximo="5A">Recuperar o Relógio e seguir a pista sobre a sociedade secreta.</button>
+            <button class="btn-proximo" data-proximo="5B">Destruir o esconderijo do sequestrador e retornar para buscar mais informações.</button>
+        </div>
+    </div>
+
+    <!-- Capítulo 5A -->
+    <div id="passo-5A" class="passo">
+        <h2>Capítulo 5A: O Esconderijo da Sociedade Secreta</h2>
+        <p>O grupo encontra o esconderijo da sociedade secreta e descobre planos sinistros.</p>
+        <div class="choice">
+            <button class="btn-proximo" data-proximo="6A">Desmantelar os planos da sociedade secreta e entregar as provas à polícia.</button>
+            <button class="btn-proximo" data-proximo="6B">Continuar investigando para encontrar mais informações sobre a sociedade secreta.</button>
+        </div>
+    </div>
+
+    <!-- Capítulo 5B -->
+    <div id="passo-5B" class="passo">
+        <h2>Capítulo 5B: Explorando o Templo</h2>
+        <p>O grupo explora mais o templo e encontra um segundo esconderijo com novas pistas.</p>
+        <div class="choice">
+            <button class="btn-proximo" data-proximo="6A">Seguir as novas pistas para encontrar o líder da sociedade secreta.</button>
+            <button class="btn-proximo" data-proximo="6B">Investigar o segundo esconderijo para encontrar mais artefatos.</button>
+        </div>
+    </div>
+
+    <!-- Capítulo 6A -->
+    <div id="passo-6A" class="passo">
+        <h2>Capítulo 6A: O Grande Confronto</h2>
+        <p>O grupo desmantela os planos da sociedade secreta e entrega as provas à polícia. A sociedade secreta é desmantelada e a cidade volta à normalidade.</p>
+        <div class="choice">
+            <button class="btn-proximo" data-proximo="fim">Rever a história e ver os créditos.</button>
+        </div>
+    </div>
+
+    <!-- Capítulo 6B -->
+    <div id="passo-6B" class="passo">
+        <h2>Capítulo 6B: Novas Revelações</h2>
+        <p>O grupo encontra novas informações que revelam a verdadeira dimensão da sociedade secreta, mas precisa decidir como agir com as novas descobertas.</p>
+        <div class="choice">
+            <button class="btn-proximo" data-proximo="fim">Rever a história e ver os créditos.</button>
+        </div>
+    </div>
+
+    <!-- Fim -->
+    <div id="fim" class="passo">
+        <h2>Fim da História</h2>
+        <p>Obrigado por acompanhar nossa história interativa!</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
